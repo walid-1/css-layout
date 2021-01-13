@@ -1,0 +1,283 @@
+doc.css header {
+  position: sticky;
+  top: 0;
+  padding: 0 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+/*navabar*/
+/*
+body {
+  margin: 0 200px;
+}*/
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.doc-span {
+  color: #00b39b;
+  font-weight: bold;
+  font-size: 300%;
+}
+
+.navmenu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 16px;
+  align-content: center;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  align-items: center;
+  padding: 30px 10%;
+}
+.navmenu li {
+  font-weight: 550;
+  font-size: 14px;
+  margin: 23px 0px;
+  padding: 0 12px;
+}
+/*dropbutton*/
+.dropbtn {
+  background-color: white;
+  color: rgb(163, 144, 144);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown:hover .dropbtn {
+  color: #00b39b;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: rgb(163, 144, 144);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/*main*/
+
+h1 {
+  font-size: 200%;
+  color: #00b39b;
+  text-align: center;
+}
+
+.milieu {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.para {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+}
+#p0 {
+  text-align: justify;
+  line-height: 30px;
+  border-radius: 400px, 10px, 10px, 10px;
+  padding: 20px;
+  color: rgb(143, 143, 143);
+}
+.for {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 150px;
+}
+.Forpatients {
+  background-color: #00b39b;
+  width: 50%;
+  height: 400px;
+  margin: 20px;
+  border: none #00b39b;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.Fordoctors {
+  background-color: #5b20e4;
+  width: 50%;
+  height: 400px;
+  margin: 20px;
+  border: none #5b20e4;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.tof1 {
+  width: 70%;
+  height: 250px;
+}
+.tof2 {
+  /*width: 30%;*/
+  height: 250px;
+  align-content: flex-end;
+  position: absolute;
+  right: 100px;
+  padding: 10px;
+}
+h3 {
+  color: aliceblue;
+  margin-left: 30px;
+}
+#p1 {
+  color: aliceblue;
+  margin-left: 30px;
+}
+.tofend {
+  display: flex;
+  justify-content: space-between;
+}
+#choosecountry {
+  border-radius: 5px;
+  height: 30px;
+  border-style: solid;
+  border-width: medium;
+  border: none;
+  padding: 5px;
+  margin-left: 30px;
+}
+
+#company {
+  /*display: flex;*/
+  font-size: 30px;
+  width: 1000px;
+  padding: 10px 150px;
+}
+
+.nom {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(163, 144, 144);
+}
+.icon {
+  height: 20px;
+  width: 20px;
+}
+li {
+  display: flex;
+}
+
+#p3 {
+  width: 200px;
+  margin-bottom: 40px;
+  font-size: xx-large;
+  margin-bottom: 50px;
+}
+
+#h33 {
+  font-size: 100%;
+  color: #00b39b;
+  text-align: center;
+}
+#world {
+  background-color: rgb(183, 246, 248);
+  display: flex;
+  width: 1400px;
+  height: 600px;
+  padding-left: 50px;
+}
+#part1 {
+  width: 400px;
+  height: 200px;
+}
+
+#block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  align-items: baseline;
+}
+
+#leader {
+  background-color: rgb(255, 255, 255);
+  width: 220px;
+  height: 230px;
+  border: none #fdfdfd;
+  border-radius: 7px;
+  margin: 20px;
+  padding-left: 5px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.all {
+  padding: 10px 150px;
+}
+#titre {
+  padding-top: 80px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 80px;
+}
+
+.photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#pp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  border-radius: 5px;
+  height: 30px;
+  border-style: solid;
+  border-width: medium;
+  border: none;
+  padding: 5px;
+  margin-left: 30px;
+  background-color: rgb(134, 175, 230);
+}
+
+#img1 {
+  padding-left: 90px;
+  padding-top: 20px;
+  height: 50px;
+  width: 50px;
+}
+p {
+  text-align: justify;
+  line-height: 30px;
+  color: rgb(163, 144, 144);
+}
